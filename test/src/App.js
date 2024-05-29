@@ -8,12 +8,13 @@ import NumberList from './NumberList';
 import AttendanceBook from './AttendanceBook';
 import NameForm from './NameForm';
 import SingUp from './chapter_11/SignUp';
+import BoilingVerdict from './BoilingVerdict';
 
 function App() {
   
   return (
     <div className="App">
-      <SingUp />
+      <BoilingVerdict />
     </div>
     
   );
