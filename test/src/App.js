@@ -9,12 +9,18 @@ import AttendanceBook from './AttendanceBook';
 import NameForm from './NameForm';
 import SingUp from './chapter_11/SignUp';
 import BoilingVerdict from './BoilingVerdict';
+import Calculator from './Calculator';
+import WelcomeDialog from './WelcomeDialog';
+import SplitPane from './SplitPane';
 
 function App() {
   
   return (
     <div className="App">
-      <BoilingVerdict />
+      <SplitPane 
+        left = {<Contacts />}
+        right={<chat/>}
+      />
     </div>
     
   );
