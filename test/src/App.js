@@ -12,15 +12,15 @@ import BoilingVerdict from './BoilingVerdict';
 import Calculator from './Calculator';
 import WelcomeDialog from './WelcomeDialog';
 import SplitPane from './SplitPane';
+import ProfileCard from './ProfileCard';
+import DarkOrLight from './DarkOrLight';
+
 
 function App() {
   
   return (
     <div className="App">
-      <SplitPane 
-        left = {<Contacts />}
-        right={<chat/>}
-      />
+      <DarkOrLight />
     </div>
     
   );
